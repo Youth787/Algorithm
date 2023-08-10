@@ -9,6 +9,7 @@
 
 * [Bronze](https://github.com/Youth787/ALGORITHM/tree/main/%EB%B0%B1%EC%A4%80/Bronze)
 
+* [Silver](https://github.com/Youth787/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/2751.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%E2%80%852)
 
 
 
