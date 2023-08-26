@@ -15,6 +15,7 @@
 ## SWEA
 <img width="400" height = "200" alt="스크린샷 2023-08-26 오후 1 13 32" src="https://github.com/Youth787/Algorithm/assets/90955152/3a1c9c17-9fc9-4bb1-85de-293915f948d5">
 
+* [swea](https://github.com/Youth787/Algorithm/tree/main/SWEA/D3/1230.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%858%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%95%94%ED%98%B8%EB%AC%B83)
 
 ## Programmers
 <img width ="400" height = "200" src="https://github.com/Youth787/Algorithm/assets/90955152/a04a8154-f1bf-4134-839e-cf344dad4856"/>
