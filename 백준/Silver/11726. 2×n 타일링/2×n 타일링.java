@@ -10,12 +10,12 @@ public class Main {
 		int N = Integer.parseInt(br.readLine());
 		arr[1] = 1;
 		arr[2] = 2;
-		System.out.println(pivo(N)%10007);
+		System.out.println(pivo(N));
 	}// main end
 	
 	public static int pivo(int n) { 
 		if(arr[n]>0) return arr[n];
-		return arr[n] = (pivo(n - 1) % 10007 + pivo(n - 2) % 10007) % 10007;
+		return arr[n] = (pivo(n - 1)+ pivo(n - 2)) % 10007;
 
 	}
 }
