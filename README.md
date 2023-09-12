@@ -8,9 +8,7 @@
 <img width ="400" height = "200" src="https://github.com/Youth787/Algorithm/assets/90955152/8043a2c7-a4bf-4521-819b-2cbf55fb2e7f"/>
 
 * [Bronze](https://github.com/Youth787/ALGORITHM/tree/main/%EB%B0%B1%EC%A4%80/Bronze)
-
 * [Silver](https://github.com/Youth787/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver)
-
 * [Gold](https://github.com/Youth787/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold)
 
 ## SWEA
