@@ -11,6 +11,7 @@
 
 * [Silver](https://github.com/Youth787/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver)
 
+* [Gold](https://github.com/Youth787/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold)
 
 ## SWEA
 <img width="400" height = "200" alt="스크린샷 2023-08-26 오후 1 13 32" src="https://github.com/Youth787/Algorithm/assets/90955152/3a1c9c17-9fc9-4bb1-85de-293915f948d5">
