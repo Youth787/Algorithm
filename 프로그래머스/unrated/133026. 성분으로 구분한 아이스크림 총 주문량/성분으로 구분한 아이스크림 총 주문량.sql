@@ -1,0 +1,6 @@
+select b.INGREDIENT_TYPE, SUM(a.TOTAL_ORDER) as 'TOTAL_ORDER'
+from FIRST_HALF as a
+join ICECREAM_INFO as b 
+on a.FLAVOR = b.FLAVOR
+group by b.INGREDIENT_TYPE
+order by SUM(a.TOTAL_ORDER);
