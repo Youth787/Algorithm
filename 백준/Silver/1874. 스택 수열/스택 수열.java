@@ -2,32 +2,34 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
-
+// 만약 last부분을 1부터 시작하고 반복문을 j = last부터 시작하면 될까?ㅠ
 public class Main {
-	public static void main(String[] args) throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		int N = Integer.parseInt(br.readLine());
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+        int N = Integer.parseInt(br.readLine());
+        Stack<Integer> stack =new Stack<>();
+        int last = 1;
+        for(int i=0; i<N;i++){
+            int n = Integer.parseInt(br.readLine());
+            if(n>=last){
+                for(int j=last; j<=n; j++){
+                    stack.push(j);
+                    sb.append("+\n");
+                }
+                last = n +1;
+            }
+            if(stack.get(stack.size()-1)==n){
+                stack.pop();
+                sb.append("-\n");
+            }
+            }
+        if(stack.size()>0){
+            System.out.println("NO");	
+        }
+        else {
+        	System.out.println(sb);	
+        }
 
-		Stack<Integer> stack = new Stack<>();
-		int cnt = 0;
-
-		while (N-- > 0) {
-			int a = Integer.parseInt(br.readLine());
-			if (a > cnt) {
-				for (int i = cnt + 1; i <= a; i++) {
-					stack.add(i);
-					sb.append("+").append("\n");
-				}
-				cnt = a;
-			}
-			else if(stack.peek() != a) {
-				System.out.println("NO");
-				return;
-			}
-			stack.pop();
-			sb.append("-").append("\n");
-		}
-		System.out.println(sb);
-	}// main end 
+        }
 }
